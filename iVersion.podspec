@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.authors      = { "Nick Lockwood" => "support@charcoaldesign.co.uk" }  
   s.source       = { :git => "https://github.com/nicklockwood/iVersion.git", :tag => "1.10.6" }
   s.source_files = 'iVersion'
+  s.resources    = 'iVersion/iVersion.bundle'
   s.requires_arc = true
   s.ios.deployment_target = '4.3'
   s.osx.deployment_target = '10.6'
